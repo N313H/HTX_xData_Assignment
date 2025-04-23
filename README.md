@@ -13,6 +13,8 @@ git clone git@github.com:N313H/HTX_xData_Assignment.git
 pip install -r requirements_all.txt
 ```
 
+3, Download `common_voice` data
+
 ---
 # Task 2 - deploy an Automatic Speech Recognition (ASR) AI model for audio transcription
 
