@@ -11,10 +11,11 @@ git clone git@github.com:N313H/HTX_xData_Assignment.git
 git clone git@github.com:N313H/HTX_xData_Assignment.git
 ```
 
+
+
+# Task 2
+
 *** Change file paths to your local file paths ***
-
-
-# ASR Microservice – Task 2
 
 This directory implements a microservice that hosts a pre-trained Automatic Speech Recognition (ASR) model (`wav2vec2-large-960h`) using FastAPI. It provides an endpoint to transcribe `.mp3` audio files and has been containerized using Docker.
 
@@ -27,15 +28,26 @@ asr/
 ```
 
 ## Dockerization
+1. Build Docker image
 ```
 docker build -t asr-api .
+```
+
+2. Run the container
+```
 docker run -p 8001:8001 asr-api
 ```
 
-Test with 
+3. Test 
 
 ```
 curl -F "file=@/Users/neleht./Desktop/nosync/HTX_xData_test/common_voice/cv-valid-dev/cv-valid-dev/sample-000000.mp3" http://localhost:8001/asr
 ```
+
+
+# Task 3
+
+*** Change file paths to your local file paths ***
+
 
 
