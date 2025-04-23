@@ -14,7 +14,7 @@ pip install -r requirements_all.txt
 ```
 
 ---
-# Task 2
+# Task 2 - deploy an Automatic Speech Recognition (ASR) AI model for audio transcription
 
 This directory implements a microservice that hosts a pre-trained Automatic Speech Recognition (ASR) model (`wav2vec2-large-960h`) using FastAPI. It provides an endpoint to transcribe `.mp3` audio files and has been containerized using Docker.
 
@@ -27,7 +27,7 @@ asr/
 ├── cv-valid-dev_task2.csv # Final csv file/ output for task 2
 └── requirements.txt   # Python dependencies
 ```
-## 2c) 
+## 2c) - hosted inference API for the model
 1. Ensure all file paths are correctly defined
 2. ```uvicorn asr.asr_api:app --host 0.0.0.0 --port 8001```
 3. Run `cv-decode.py `
@@ -49,7 +49,7 @@ curl -F "file=@/Users/neleht./Desktop/nosync/HTX_xData_test/common_voice/cv-vali
 ```
 
 ---
-# Task 3
+# Task 3 - finetune an Automatic Speech Recognition (ASR) AI model
 
 Directory:
 ```
