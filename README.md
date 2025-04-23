@@ -26,6 +26,7 @@ asr/
 ├── asr_api.py         # FastAPI microservice for ASR
 ├── cv-decode.py       # Script to transcribe Common Voice mp3s using the API
 ├── Dockerfile         # Docker container setup
+├── cv-valid-dev_task2.csv # Final csv file for task 2
 └── requirements.txt   # Python dependencies
 ```
 
@@ -55,9 +56,17 @@ Directory:
 ```
 asr-train/
 ├── cv-train-2a.ipynb
+├── cv-valid-dev_task4.csv
+├── cv-valid-dev_task4_final.csv # Final csv for task 4
+├── cv-valid-test_task3-eval.csv # Final csv for task 3
+├── cv-valid-test_task3.csv
+├── duration_cache_file.csv
+└── losses.csv
 ```
 1. Ensure all file paths are correctly defined
 2. `cv-train-2a.ipynb` Run All
+
+If you want to download my presaved finetuned model
 
 # Task 5
 
@@ -67,7 +76,7 @@ hotword-detection/
 ├── cv-hotword-5a.ipynb # Hotword detection on transcriptions
 ├── cv-hotword-similarity-5b.ipynb # Semantic similarity detection using embeddings
 ├── detected.txt # List of audio files containing hotwords
-├── cv-valid-dev.csv # Updated with similarity column
+└── cv-valid-dev.csv # Updated with similarity column
 ```
 
 1. Ensure all file paths are correctly defined
@@ -77,13 +86,14 @@ python3.10 -m venv venv
 source venv/bin/activate
 venv\Scripts\activate
 ```
+
 3. Install  `requirement_instructor.txt`
 ```
 pip install -r requirement_instructor.txt
 ```
 
-5. `cv-hotword-5a.ipynb` Run All
-6. `cv-hotword-similarity-5b.ipynb` Run All
+4. `cv-hotword-5a.ipynb` Run All
+5. `cv-hotword-similarity-5b.ipynb` Run All
 
 
    
