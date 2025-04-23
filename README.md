@@ -1,6 +1,5 @@
 # HTX_xData_Assignment
 
-git clone git@github.com:N313H/HTX_xData_Assignment.git
 
 ---
 
