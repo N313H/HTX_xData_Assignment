@@ -1,0 +1,16 @@
+filename,text,up_votes,down_votes,age,gender,accent,duration,generated_text,wer,accuracy,similarity,similar_to_hotword
+cv-valid-dev/sample-000000.mp3,be careful with your prognostications said the stranger,1,0,,,,5.064,be careful with your prognostications said the stranger,0.0,1.0,True,True
+cv-valid-dev/sample-000003.mp3,i thought that everything i owned would be destroyed,3,0,,,,4.464,i felt that everything i owned would be destroyed,0.111,0.889,True,True
+cv-valid-dev/sample-000089.mp3,the stranger seemed satisfied with the answer,3,0,,,,3.024,the stranger seemed satisfied it the answer,0.143,0.857,True,True
+cv-valid-dev/sample-000508.mp3,i had to test your courage the stranger said,3,0,,,,4.152,i had to test your courage the stranger said,0.0,1.0,True,False
+cv-valid-dev/sample-000674.mp3,i had to test your courage the stranger said,1,0,,,,6.144,i had to test your courage the stranger said,0.0,1.0,True,False
+cv-valid-dev/sample-001093.mp3,be careful with your prognostications said the stranger,2,0,thirties,male,us,3.72,be careful with your prognostications said the stranger,0.0,1.0,True,False
+cv-valid-dev/sample-001101.mp3,the stranger was speaking of things that very few people knew about,3,0,,,,4.824,the stranger was speaking of things that very few people knew about,0.0,1.0,True,False
+cv-valid-dev/sample-001243.mp3,the stranger was speaking of things that very few people knew about,1,0,,,,9.576,the stranger was speaking of things that very few people knew about,0.0,1.0,True,False
+cv-valid-dev/sample-001501.mp3,i had to test your courage the stranger said,3,0,,,,3.888,i had to test your courage the stranger said,0.0,1.0,True,False
+cv-valid-dev/sample-001933.mp3,the stranger seemed satisfied with the answer,3,0,,,,3.096,the stranger seemed satisfied with the answer,0.0,1.0,True,False
+cv-valid-dev/sample-002405.mp3,the stranger was speaking of things that very few people knew about,2,1,,,,4.536,the stranger was speaking of things that pretty few peoplemen boat,0.333,0.667,True,False
+cv-valid-dev/sample-002453.mp3,i don't like people to do that because the sheep are afraid of strangers,2,0,,,,6.624,i don't like people to do that because the sheep are afraid of strangers,0.0,1.0,True,False
+cv-valid-dev/sample-003065.mp3,the stranger withdrew the sword from the boy's forehead and the boy felt immensely relieved,2,1,,,,6.672,the stranger withdrew the sword from the boy's forehead and the boy felt intensely relieved,0.067,0.933,True,False
+cv-valid-dev/sample-003219.mp3,i had to test your courage the stranger said,2,0,,,,4.896,i had to test your courage the stranger said,0.0,1.0,True,False
+cv-valid-dev/sample-003808.mp3,i had to test your courage the stranger said,1,0,twenties,female,england,3.144,i had to test your courage the stranger said,0.0,1.0,True,False
