@@ -1,7 +1,16 @@
 # HTX_xData_Assignment
 
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo/asr
+git clone git@github.com:N313H/HTX_xData_Assignment.git
+
+---
+
+### Setup
+
+1. **Clone the repository**
+```bash
+git clone git@github.com:N313H/HTX_xData_Assignment.git
+```
+
 
 # ASR Microservice – Task 2
 
