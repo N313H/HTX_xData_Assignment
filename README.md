@@ -40,14 +40,11 @@ asr/
 ```
 docker build -t asr-api .
 ```
-
-2. Run the container
+3. Run the container
 ```
 docker run -p 8001:8001 asr-api
 ```
-
-3. Test 
-
+4. Test 
 ```
 curl -F "file=@/Users/neleht./Desktop/nosync/HTX_xData_test/common_voice/cv-valid-dev/cv-valid-dev/sample-000000.mp3" http://localhost:8001/asr
 ```
@@ -67,7 +64,7 @@ asr-train/
 └── losses.csv
 ```
 1. Ensure all file paths are correctly defined
-2. `cv-train-2a.ipynb` Run All
+2. Run All `cv-train-2a.ipynb` 
 
 Due to limitations of git and github I was unable to upload my saved finedtuned model as it was too large. Instaed in its place I have attached a pdf with a link to Google drive to download the model. 
 Link here: https://drive.google.com/file/d/1AsPgutXIlbJwYS6G8X28Y7zbRMzKKuaM/view?usp=sharing
@@ -92,14 +89,12 @@ python3.10 -m venv venv
 source venv/bin/activate
 venv\Scripts\activate
 ```
-
 3. Install  `requirement_instructor.txt`
 ```
 pip install -r requirement_instructor.txt
 ```
-
-4. `cv-hotword-5a.ipynb` Run All
-5. `cv-hotword-similarity-5b.ipynb` Run All
+4. Run All `cv-hotword-5a.ipynb` 
+5. Run All `cv-hotword-similarity-5b.ipynb` 
 
 
    
