@@ -1,2 +1,18 @@
 # HTX_xData_Assignment
-Technical Test from HTX xData
+
+git clone https://github.com/yourusername/yourrepo.git
+cd yourrepo/asr
+
+# ASR Microservice – Task 2
+
+This directory implements a microservice that hosts a pre-trained Automatic Speech Recognition (ASR) model (`wav2vec2-large-960h`) using FastAPI. It provides an endpoint to transcribe `.mp3` audio files and has been containerized using Docker.
+
+asr/
+├── asr_api.py         # FastAPI microservice for ASR
+├── cv-decode.py       # Script to transcribe Common Voice mp3s using the API
+├── Dockerfile         # Docker container setup
+└── requirements.txt   # Python dependencies
+
+
+## Directory Structure
+
