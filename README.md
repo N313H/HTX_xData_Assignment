@@ -26,7 +26,7 @@ asr/
 ├── asr_api.py         # FastAPI microservice for ASR
 ├── cv-decode.py       # Script to transcribe Common Voice mp3s using the API
 ├── Dockerfile         # Docker container setup
-├── cv-valid-dev_task2.csv # Final csv file for task 2
+├── cv-valid-dev_task2.csv # Final csv file/ output for task 2
 └── requirements.txt   # Python dependencies
 ```
 
@@ -57,8 +57,8 @@ Directory:
 asr-train/
 ├── cv-train-2a.ipynb
 ├── cv-valid-dev_task4.csv
-├── cv-valid-dev_task4_final.csv # Final csv for task 4
-├── cv-valid-test_task3-eval.csv # Final csv for task 3
+├── cv-valid-dev_task4_final.csv # Final csv file/ output for task 4
+├── cv-valid-test_task3-eval.csv # Final csv file/ output for task 3
 ├── cv-valid-test_task3.csv
 ├── duration_cache_file.csv
 └── losses.csv
@@ -66,7 +66,8 @@ asr-train/
 1. Ensure all file paths are correctly defined
 2. `cv-train-2a.ipynb` Run All
 
-If you want to download my presaved finetuned model
+Due to limitations of git and github I was unable to upload my saved finedtuned model as it was too large. Instaed in its place I have attached a pdf with a link to Google drive to download the model. 
+Link here: https://drive.google.com/file/d/1AsPgutXIlbJwYS6G8X28Y7zbRMzKKuaM/view?usp=sharing
 
 # Task 5
 
@@ -75,8 +76,10 @@ Directory:
 hotword-detection/
 ├── cv-hotword-5a.ipynb # Hotword detection on transcriptions
 ├── cv-hotword-similarity-5b.ipynb # Semantic similarity detection using embeddings
-├── detected.txt # List of audio files containing hotwords
-└── cv-valid-dev.csv # Updated with similarity column
+├──cv-valid-dev-updated.csv # Final csv file/ output for task 5b
+├── requirements_instructor.txt
+└── detected.txt # List of audio files containing hotwords task 5a
+
 ```
 
 1. Ensure all file paths are correctly defined
