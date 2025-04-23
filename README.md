@@ -1,6 +1,5 @@
 # HTX_xData_Assignment
 
-
 ---
 
 ### Setup
@@ -14,7 +13,7 @@ git clone git@github.com:N313H/HTX_xData_Assignment.git
 pip install -r requirements_all.txt
 ```
 
-
+---
 # Task 2
 
 This directory implements a microservice that hosts a pre-trained Automatic Speech Recognition (ASR) model (`wav2vec2-large-960h`) using FastAPI. It provides an endpoint to transcribe `.mp3` audio files and has been containerized using Docker.
@@ -49,7 +48,7 @@ docker run -p 8001:8001 asr-api
 curl -F "file=@/Users/neleht./Desktop/nosync/HTX_xData_test/common_voice/cv-valid-dev/cv-valid-dev/sample-000000.mp3" http://localhost:8001/asr
 ```
 
-
+---
 # Task 3
 
 Directory:
@@ -69,7 +68,9 @@ asr-train/
 Due to limitations of git and github I was unable to upload my saved finedtuned model as it was too large. Instaed in its place I have attached a pdf with a link to Google drive to download the model. 
 Link here: https://drive.google.com/file/d/1AsPgutXIlbJwYS6G8X28Y7zbRMzKKuaM/view?usp=sharing
 
-# Task 5
+---
+
+# Task 5 - hot word and similarity detection
 
 Directory:
 ```
@@ -78,7 +79,7 @@ hotword-detection/
 ├── cv-hotword-similarity-5b.ipynb # Semantic similarity detection using embeddings
 ├──cv-valid-dev-updated.csv # Final csv file/ output for task 5b
 ├── requirements_instructor.txt
-└── detected.txt # List of audio files containing hotwords task 5a
+└── detected.txt # List of audio files containing hotwords for task 5a
 
 ```
 
