@@ -7,11 +7,13 @@ git clone git@github.com:N313H/HTX_xData_Assignment.git
 ### Setup
 
 1. Clone the repository
-```bash
+```
 git clone git@github.com:N313H/HTX_xData_Assignment.git
 ```
-2. Install requirement
-
+2. Install `requirements_all.txt`
+```
+pip install -r requirements_all.txt
+```
 
 
 # Task 2
@@ -77,8 +79,11 @@ venv\Scripts\activate
 ```
 3. Install  `requirement_instructor.txt`
 ```
+pip install -r requirement_instructor.txt
+```
 
-5. `cv-hotword-5a.ipynb`
+5. `cv-hotword-5a.ipynb` Run All
+6. `cv-hotword-similarity-5b.ipynb` Run All
 
 
    
