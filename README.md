@@ -28,11 +28,14 @@ asr/
 ├── cv-valid-dev_task2.csv # Final csv file/ output for task 2
 └── requirements.txt   # Python dependencies
 ```
-## 
-
-## Dockerization
+## 2c) 
 1. Ensure all file paths are correctly defined
+2. ```uvicorn asr.asr_api:app --host 0.0.0.0 --port 8001```
+3. Run `cv-decode.py `
+   
 
+## 2e) Dockerization
+1. Ensure all file paths are correctly defined
 2. Build Docker image
 ```
 docker build -t asr-api .
