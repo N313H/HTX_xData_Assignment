@@ -4,8 +4,8 @@ import os
 from tqdm import tqdm
 
 # Path setup
-CSV_PATH = "/Users/neleht./Desktop/nosync/recent/common_voice/cv-valid-dev.csv"
-AUDIO_BASE_PATH = "/Users/neleht./Desktop/nosync/recent/common_voice/cv-valid-dev/"
+CSV_PATH = "../common_voice/cv-valid-dev.csv"
+AUDIO_BASE_PATH = "../common_voice/cv-valid-dev/"
 
 API_URL = "http://localhost:8001/asr"
 
